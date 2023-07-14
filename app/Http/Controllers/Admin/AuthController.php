@@ -6,6 +6,6 @@ class AuthController
 {
     public function login()
     {
-        return view('resources\view\admin\auth\login.php');
+        return view('admin\auth\login.php');
     }
 }
